@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 HYUNJO KIM
+Copyright (c) 2024 HYUNJO KIM, JAE-HO CHOI, JIN-YOUNG CHOI
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,6 +11,8 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+**Please note:** This software is part of a larger commercial project. While this repository is provided to support research transparency, certain proprietary components (e.g., code, datasets, and models) may not be included as they are integral to our commercial services. Visit [https://beta.maccai.kr](https://beta.maccai.kr) for more information and access to the commercial version.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
