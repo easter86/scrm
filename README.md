@@ -123,4 +123,7 @@ This project requires the following Python packages, as specified in the `requir
 
 ```text
 Django==4.2
-djangorestframework==3
+djangorestframework==3.14.0
+gensim==4.3.1
+scikit-learn==1.2.2
+numpy==1.24.3
