@@ -8,7 +8,7 @@ We understand the importance of transparency in research and the need to provide
 
 While we cannot provide access to certain internal components such as our full dataset and the generative AI model itself, this repository contains the core algorithms that demonstrate how context management works in our text-to-image pipeline. 
 
-For a more comprehensive experience, including the real-world use case of our algorithms, you can try our **beta version** of the commercial service at [hear](https://bit.ly/3XBfAF4).
+For a more comprehensive experience, including the real-world use case of our algorithms, you can try our **beta version** of the commercial service at [hear](https://bit.ly/4ed772a).
 
 ## Project Overview
 
