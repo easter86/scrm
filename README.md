@@ -8,7 +8,7 @@ We understand the importance of transparency in research and the need to provide
 
 While we cannot provide access to certain internal components such as our full dataset and the generative AI model itself, this repository contains the core algorithms that demonstrate how context management works in our text-to-image pipeline. 
 
-For a more comprehensive experience, including the real-world use case of our algorithms, you can try our **beta version** of the commercial service at [https://beta.maccai.kr](https://beta.maccai.kr).
+For a more comprehensive experience, including the real-world use case of our algorithms, you can try our **beta version** of the commercial service at [hear](https://bit.ly/3XBfAF4).
 
 ## Project Overview
 
@@ -23,7 +23,7 @@ This project includes:
 
 ### ICF Algorithm API
 
-- **URL**: `/api/icf/`
+- **URL**: `/myapp/icf/`
 - **Method**: `POST`
 - **Payload**:
     ```json
@@ -48,7 +48,7 @@ This project includes:
 
 ### RCF Algorithm API
 
-- **URL**: `/api/rcf/`
+- **URL**: `/myapp/rcf/`
 - **Method**: `POST`
 - **Payload**:
     ```json
@@ -74,7 +74,7 @@ This project includes:
 
 ### SCRM Algorithm API
 
-- **URL**: `/api/scrm/`
+- **URL**: `/myapp/scrm/`
 - **Method**: `POST`
 - **Payload**:
     ```json
@@ -112,7 +112,17 @@ This project includes:
     pip install -r requirements.txt
     ```
 
-3. **Run the Django development server**:
+3. **Download the Pre-trained Word2Vec Model**:
+    The **GoogleNews-vectors-negative300.bin** model is used in the SCRM algorithm for context similarity. Due to the size of the file (approximately 1.5 GB), it cannot be included in this repository. You will need to download it manually.
+
+    You can download the model from [GoogleNews-vectors-negative300](https://code.google.com/archive/p/word2vec/) and save it in your project directory.
+
+    ```bash
+    wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
+    gunzip GoogleNews-vectors-negative300.bin.gz
+    ```
+
+4. **Run the Django development server**:
     ```bash
     python manage.py runserver
     ```
@@ -122,8 +132,15 @@ This project includes:
 This project requires the following Python packages, as specified in the `requirements.txt`:
 
 ```text
+asgiref==3.8.1
+backports.zoneinfo==0.2.1
 Django==4.2
-djangorestframework==3.14.0
-gensim==4.3.1
-scikit-learn==1.2.2
-numpy==1.24.3
+gensim==4.3.3
+joblib==1.4.2
+numpy==1.24.4
+scikit-learn==1.3.2
+scipy==1.10.1
+smart-open==7.0.4
+threadpoolctl==3.5.0
+wrapt==1.16.0
+
