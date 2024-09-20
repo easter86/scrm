@@ -18,7 +18,7 @@ This project includes:
 - **RCF Algorithm**: Rotates context between sentences based on a defined threshold (`delta`).
 - **SCRM Algorithm**: Handles structured contexts and transitions between them using Word2Vec embeddings.
 - A simple **Django REST API** to call these algorithms through HTTP requests.
-
+  
 ## API Endpoints
 
 ### ICF Algorithm API
@@ -143,4 +143,35 @@ scipy==1.10.1
 smart-open==7.0.4
 threadpoolctl==3.5.0
 wrapt==1.16.0
+```
+
+## Comparison of the generated images for each Algorithms
+
+1. **ICF Algorithm**:
+    - ![fig11](https://github.com/user-attachments/assets/5944f9fe-8e67-43db-b965-3b05bdce465f)
+2. **RCF Algorithm**:
+    - ![fig12](https://github.com/user-attachments/assets/4237fc18-9822-4b20-aed4-d6492810852b)
+3. **SCRM Algorithm**:
+   ```bash
+   Once, there was a hungry lion.
+   The lion hunted animals every day, and the animals were terrified of him.
+   One day, the animals devised a plan to stop the lion.
+   They decided to send a clever rabbit to meet the lion.
+   The rabbit walked very slowly towards the lion, taking his time.
+   When the lion saw the rabbit arriving late, he became furious.
+   The rabbit came up with an excuse to explain the delay, claiming another lion had tried to attack him.
+   The lion became even angrier and demanded to be shown this supposed rival.
+   The clever rabbit led the lion to a deep well.
+   When the lion looked into the well, he saw his reflection in the water.
+   Mistaking his reflection for another lion, he leaped into the well to fight.
+   But the lion fell into the well and drowned.
+   Thanks to the clever rabbit, the animals were saved.
+    ```
+    - For the above Scenario, comparison of the generated images for each Alorithms (RCF, SCRM, DALL-E) is as follow:   
+        - **RCF Algorithm**:
+            - ![rcf](https://github.com/user-attachments/assets/29c02349-30b0-4503-89cf-3f6223ad8809)
+        - **SCRM Algorithm**:
+            - ![scrm](https://github.com/user-attachments/assets/5071be67-5836-4ed4-981e-f7e2a951265f)
+        - **DALL-E Algorithm**:
+            - ![dall-e-min](https://github.com/user-attachments/assets/0417aecd-a983-409d-96cb-f98a0717825e)
 
