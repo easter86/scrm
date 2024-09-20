@@ -102,8 +102,8 @@ This project includes:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/easter86/scrm.git
-    cd your-repo-name
+    git clone https://github.com/easter86/scrm.git scrm
+    cd scrm
     ```
 
 2. **Install the dependencies**:
