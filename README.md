@@ -102,7 +102,7 @@ This project includes:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo-name.git
+    git clone https://github.com/easter86/scrm.git
     cd your-repo-name
     ```
 
@@ -152,7 +152,7 @@ wrapt==1.16.0
 2. **RCF Algorithm**:
     - ![fig12](https://github.com/user-attachments/assets/4237fc18-9822-4b20-aed4-d6492810852b)
 3. **SCRM Algorithm**:
-   ```bash
+   ```text
    Once, there was a hungry lion.
    The lion hunted animals every day, and the animals were terrified of him.
    One day, the animals devised a plan to stop the lion.
@@ -167,7 +167,7 @@ wrapt==1.16.0
    But the lion fell into the well and drowned.
    Thanks to the clever rabbit, the animals were saved.
     ```
-    - For the above Scenario, comparison of the generated images for each Alorithms (RCF, SCRM, DALL-E) is as follow:   
+    - For the above Scenario, comparison of the generated images for each Algorithms (RCF, SCRM, DALL-E) is as follow:   
         - **RCF Algorithm**:
             - ![rcf](https://github.com/user-attachments/assets/29c02349-30b0-4503-89cf-3f6223ad8809)
         - **SCRM Algorithm**:
